@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Young+Serif&display=swap" rel="stylesheet"
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+background-color:black;
+color: aliceblue;
+
+}.cabecao{
+    padding:2% 0% 0% 15%;
+    }
+    .cabecalho{
+        display: flex;
+        gap: 80px;
+    }
+    .home {
+    font-family:'Young Serif', serif ;
+    font-size: 18px;
+    color: #9111DB;
+    text-decoration: none
+    
+    }
+    .titulo_et { 
+        margin: 6% 1%;
+        font-size: 44px;
+    font-family: 'Young Serif', serif ;
+    color: #9111DB;
+    }
+    .letra_menor {
+        margin: 1% 0%;
+        width: 700px;
+        font-size: 23px;
+        font-family: 'Young Serif', serif ;
+    } 
+
+        
+    .pezinho {
+        padding: 0,1px;
+        background-color: #9111DB;
+        font-family:'Young Serif', serif ;
+        text-align: center;
+        display: flex;
+        justify-content:center
+     }
+     .apresentacao {
+        padding: 8% 8%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mid{
+        margin: 9% 18%;
+        width: 615px;
+        color: 
+        }
+

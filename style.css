@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Young+Serif&display=swap" rel="stylesheet"
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+background-color: black;
+color: aliceblue;
+}
+.cabecao{
+padding:2% 0% 0% 15%;
+}
+.cabecalho{
+    display: flex;
+    gap: 80px;
+}
+.home {
+font-family:'Young Serif', serif ;
+font-size: 1.125rem;
+color: #9111DB;
+text-decoration: none
+
+}
+
+
+
+.front-end-titulo {
+    color: #9111DB;
+}
+.apresentacao {
+    padding: 8% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.mid{
+    margin: 6%;
+    width: 40%;
+    
+}
+.titulo_et { 
+    margin: 0%;
+    font-size: 2.75rem;
+font-family: 'Young Serif', serif;
+}
+.letra_menor {
+    margin: 1% 0%;
+    width: 700px;
+    font-size: 1.438rem;
+    font-family: 'Young Serif', serif;
+} 
+.img_i {
+    margin: 5%;
+    width: 27%;
+    
+}
+.redes_sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.linkdoslink {
+    border: 2px inset #9111DB;
+    margin: 0 0;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size:  1.375rem; ;
+    padding: 12px 7px;
+    text-decoration: none;
+    color: #9111DB;
+font-family: 'Young Serif', serif;
+}
+.subdoslink {
+    font-family:'Young Serif', serif; 
+    font-size:  23px;
+ }
+ .linkdoslink:hover{
+
+    background-color:#1C1C1C;
+ }
+ 
+ .pezinho {
+    padding: 0,1px;
+    background-color: #9111DB;
+    font-family:'Young Serif', serif ;
+    text-align: center;
+    display: flex;
+    justify-content:center
+ }
+ @media ( max-width:1200px ) {
+   .apresentacao{
+    flex-direction: column-reverse;
+    padding: 1% 0;
+   }
+   .cabecao {
+    padding: 6%;
+   }
+   .cabecalho{
+    display: flex;
+    justify-content: center;
+   }
+   .mid {
+    width: auto;
+   }
+ }
